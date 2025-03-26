@@ -272,7 +272,7 @@ footer {
     
 .menu {
     position: fixed;
-    height: 100vh;
+    height: 50vh;
     background: #f9a201;
     width: 8vw;
     box-shadow: 1px 0 2px rgba(0, 0, 0, 0.2);
