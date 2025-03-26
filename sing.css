@@ -1,0 +1,429 @@
+/* Base styles */
+body {
+    background: #3A3A42;
+    box-sizing: content-box;
+}
+
+h1 {
+    margin: 50px;
+}
+
+.menu {
+    position: fixed;
+    height: 500vh;
+    background: #f9a201;
+    width: 8vw;
+    box-shadow: 1px 0 2px rgba(0, 0, 0, 0.2);
+    transition: 1s;
+}
+
+.menu:hover {
+    width: 40vw;
+}
+
+.menu:hover ~ .container {
+    transform: perspective(80vw) rotateY(10deg) translateX(35vw) scaleY(1.2);
+}
+
+.menu:hover nav {
+    left: 20%;
+}
+
+.container {
+    width: 90%;
+    margin-left: 10vw;
+    background: #ebdba8;
+    transition: 1s;
+    transform-origin: left center;
+    color: #000000;
+    padding: 100px 20%;
+}
+
+.content {
+    padding: 20px 7%;
+}
+
+nav {
+    position: absolute;
+    margin-top: 50%;
+    left: -1000px;
+    transition: 0.5s;
+}
+
+nav ul {
+    color: white;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+
+nav li {
+    line-height: 2em;
+    letter-spacing: 0.3em;
+}
+
+nav a {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #eee;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+h2 {
+    color: #bbb;
+}
+
+.socrates {
+    height: 350px;
+    width: 500px;
+    position: relative;
+    top: 40px;
+}
+
+.socratesquote {
+    height: 80px;
+    width: 500px;
+    position: relative;
+    top: -200px;
+    left: 500px;
+    border-radius: 10px;
+}
+
+img {
+    position: absolute;
+    top: -260px;
+    left: -10px;
+    height: 250px;
+    width: 250px;
+}
+
+/* News Section */
+.confu, .buddha, .zhuang, .lao, .bodhi, .osho {
+    position: relative;
+    top: 40px;
+    left: 100px;
+    margin-bottom: 40px;
+}
+
+.confuquote, .buddhaquote, .zhuangquo, .laoquote, .bodhiquo, .oshoquo {
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+    left: 120px;
+}
+
+.confuquote {
+    height: 90px;
+    width: 600px;
+}
+
+.buddhaquote {
+    height: 90px;
+    width: 600px;
+}
+
+.zhuangquo {
+    height: 180px;
+    width: 670px;
+}
+
+.laoquote {
+    height: 70px;
+    width: 620px;
+}
+
+.bodhiquo {
+    height: 80px;
+    width: 490px;
+}
+
+.oshoquo {
+    height: 100px;
+    width: 390px;
+}
+
+/* Team Section */
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.team-member {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    position: relative;
+    top: 0px;
+    left: 1px;
+}
+
+.team-member h3 {
+    margin-bottom: 10px;
+    font-size: 1.4em;
+}
+
+.team-member p {
+    color: #777;
+}
+
+/* About Section */
+main {
+    padding: 20px 0;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+/* Contact Section */
+.contact-form-section {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form-section h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 150px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    position: relative;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 0px;
+}
+
+/* Responsive Styles for smaller devices */
+
+/* For tablets and mobile */
+@media (max-width: 768px) {
+    
+.menu {
+    position: fixed;
+    height: 100vh;
+    background: #f9a201;
+    width: 8vw;
+    box-shadow: 1px 0 2px rgba(0, 0, 0, 0.2);
+    transition: 1s;
+}
+
+.menu:hover {
+    width: 10vw;
+}
+
+.menu:hover ~ .container {
+    transform: perspective(80vw) rotateY(10deg) translateX(35vw) scaleY(1.2);
+}
+
+.menu:hover nav{
+    left: 20%;
+}
+.container {
+    width: 90%;
+    margin-left: 10vw;
+    background: #ebdba8;
+    transition: 1s;
+    transform-origin: left center;
+    color: #000000;
+  }
+  .container{
+    padding: 100px 20%;
+  }
+  .content{
+    padding: 20px 7%;
+  }
+nav {
+    position: absolute;
+    margin-top: 2500%;
+    left: -1000px;
+    transition: 0.5s;
+}
+
+nav ul {
+    color: white;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+
+nav li {
+    line-height: 2em;
+    letter-spacing: 0.3em;
+}
+
+nav a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+}
+
+    .team-member {
+        width: 45%;
+    }
+
+    .socrates {
+        height: 250px;
+        width: 350px;
+    }
+
+    .socratesquote,.confuquote, .buddhaquote, .zhuangquo, .laoquote, .bodhiquo, .oshoquo {
+        border-radius: 5px;
+        position: relative;
+        top: 20px;
+        left: 50px;
+        height: 50px;
+        width: 350px;
+    }
+    img{
+        position: absolute;
+        top: -260px;
+        left: -10px;
+        height:150px ;
+        width:150x; 
+    }
+      
+
+    /* Adjust text sizes for better readability */
+    h2 {
+        font-size: 1.6em;
+    }
+
+    .team-member h3 {
+        font-size: 1.2em;
+    }
+
+    .content h2 {
+        font-size: 1.4em;
+    }
+
+    .content p {
+        font-size: 1em;
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+    .menu {
+        width: 50vw;
+    }
+
+    .container {
+        margin-left: 50vw;
+        padding: 50px 5%;
+    }
+
+    .team-member {
+        width: 100%;
+    }
+
+    .content {
+        padding: 15px;
+    }
+
+    .team-member h3 {
+        font-size: 1.2em;
+    }
+
+    .content h2 {
+        font-size: 1.4em;
+    }
+
+    .content p {
+        font-size: 0.9em;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+
+    .socrates {
+        height: 200px;
+        width: 300px;
+    }
+
+    .socratesquote {
+        height: 60px;
+        width: 300px;
+    }
+
+    /* Adjust the form padding and text size for mobile */
+    .contact-form-section {
+        padding: 20px;
+    }
+
+    button {
+        font-size: 1em;
+    }
+}

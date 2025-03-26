@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #3A3A42;
+            box-sizing: content-box;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .menu {
+            position: fixed;
+            height: 100vh;
+            background: #F9D401;
+            width: 10vw;
+            box-shadow: 1px 0 2px rgba(0, 0, 0, 0.2);
+            transition: 1s;
+        }
+
+        .menu:hover {
+            width: 40vw;
+        }
+
+        .menu:hover ~ .container {
+            transform: perspective(80vw) rotateY(10deg) translateX(35vw) scaleY(1.2);
+        }
+
+        .menu:hover nav {
+            left: 20%;
+        }
+
+        .container {
+            width: 90%;
+            margin-left: 10vw;
+            background: #FDFDFD;
+            transition: 1s;
+            transform-origin: left center;
+            color: #D2D2D0;
+        }
+
+        .container .content {
+            padding: 100px 20%;
+        }
+
+        nav {
+            position: absolute;
+            margin-top: 50%;
+            left: -1000px;
+            transition: 0.5s;
+        }
+
+        nav ul {
+            color: white;
+            text-transform: uppercase;
+            list-style-type: none;
+        }
+
+        nav li {
+            line-height: 2em;
+            letter-spacing: 0.3em;
+        }
+
+        nav a {
+            font-size: 30px;
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            color: #eee;
+        }
+
+        p {
+            line-height: 1.5em;
+        }
+
+        h1 {
+            color: #bbb;
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            .menu {
+                width: 20vw;
+            }
+
+            .menu:hover {
+                width: 50vw;
+            }
+
+            .menu:hover ~ .container {
+                transform: perspective(60vw) rotateY(5deg) translateX(25vw) scaleY(1.1);
+            }
+
+            .container {
+                margin-left: 20vw;
+                width: 80%;
+            }
+
+            .container .content {
+                padding: 50px 10%;
+            }
+
+            nav {
+                left: -500px;
+            }
+
+            nav a {
+                font-size: 25px;
+            }
+
+            .menu:hover nav {
+                left: 0;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1rem;
+                padding: 0 10px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .menu {
+                width: 40vw;
+            }
+
+            .menu:hover {
+                width: 60vw;
+            }
+
+            .container {
+                margin-left: 40vw;
+                width: 60%;
+            }
+
+            .container .content {
+                padding: 30px 5%;
+            }
+
+            nav a {
+                font-size: 20px;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="content">
+            <h1>Like</h1>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti eius, expedita nisi eos consequuntur ipsum natus repudiandae asperiores dolorum ex provident mollitia, odit veritatis esse cum aliquam veniam facilis culpa. Odio maxime corporis vero voluptatum nemo earum architecto nulla vel?
+            </p>
+        </div>
+        <div class="content">
+            <h1>Please</h1>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo quas consectetur sapiente ratione fuga excepturi animi ipsum porro ipsa illum ex debitis atque explicabo, reprehenderit officiis iusto possimus at laboriosam ea! Iusto id nam itaque ullam quo veniam reiciendis reprehenderit, dicta laboriosam blanditiis soluta quibusdam facere architecto alias rerum doloremque?
+            </p>
+        </div>
+    </div>
+</body>
+</html>
