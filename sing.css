@@ -114,10 +114,10 @@ img {
    }
    .confuquote{
      height:90px;
-       width:550px;
+       width:600px;
        position:relative;
      top:20px;
-     left: 200px;
+     left: 150px;
      border-radius: 5px;
     }
    
@@ -130,10 +130,10 @@ img {
    }
    .buddhaquote{
      height:90px;
-     width:600px;
+     width:620px;
      position:relative;
      top:20px;
-     left: 180px;
+     left: 150px;
      border-radius: 5px;
    }
     .zhuang{
@@ -144,17 +144,17 @@ img {
      left: 100px;
    }
    .zhuangquo{
-     height:180px;
-     width:670px;
+     height:90px;
+     width:590px;
      position:relative;
      top:30px;
-     left: 120px;
+     left: 140px;
      border-radius: 5px;
    } 
    
    .lao{
     height:300px;
-    width: 250px;
+    width: 280px;
     position: relative;
      top:40px;
      left: 100px;
@@ -164,7 +164,7 @@ img {
      width:620px;
      position:relative;
      top:32px;
-     left: 160px;
+     left: 130px;
      border-radius: 5px;    
    }
    
@@ -177,11 +177,11 @@ img {
      left: 100px;
    }
    .bodhiquo{
-     height:80px;
-     width:490px;
+     height:70px;
+     width:400px;
      position:relative;
      top:32px;
-     left: 160px;
+     left:160px;
      border-radius: 5px;    
    }
       
@@ -193,8 +193,8 @@ img {
      left: 100px;
    }
    .oshoquo{
-     height:100px;
-     width:390px;
+     height:80px;
+     width:300px;
      position:relative;
      top:32px;
      left: 160px;
@@ -268,8 +268,8 @@ section p {
   }
 }
 
-@media (max-width: 480px) {
 
+@media (max-width: 480px) {
     .menu {
         position: fixed;
         height: 100%;
@@ -428,7 +428,7 @@ footer {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 580px) {
   .contact-form-section {
     padding: 15px;
   }
@@ -559,7 +559,7 @@ footer {
 
 
 
-@media (max-width: 480px) {
+@media (max-width: 400px) {
   .contact-form-section {
     padding: 15px;
   }
@@ -624,7 +624,7 @@ footer {
      left:50px;
    }
    .zhuangquo{
-     height:80px;
+     height:55px;
      width:360px;
      position:relative;
      top:30px;
@@ -654,7 +654,7 @@ footer {
     width: 280px;
      position: relative;
      top:40px;
-     left:30px;
+     left:10px;
    }
    .bodhiquo{
      height:50px;
@@ -670,7 +670,7 @@ footer {
      width: 300px;
      position: relative;
      top:40px;
-     left:30px;
+     left:10px;
    }
    .oshoquo{
      height:60px;
