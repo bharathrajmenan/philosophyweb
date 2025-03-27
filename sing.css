@@ -555,3 +555,134 @@ footer {
    }
 
 }
+
+
+
+
+@media (max-width: 400px) {
+  .contact-form-section {
+    padding: 15px;
+  }
+
+  header h1 {
+    font-size: 2em;
+  }
+
+  .socrates {
+    height: 200px;
+    width: 300px;
+    position: relative;
+    top: 40px;
+  }
+  
+  .socratesquote {
+    height: 60px;
+    width: 350px;
+    position: relative;
+    top: 45px;
+    left: -10px;
+    border-radius: 10px;
+    margin-bottom:40px ;
+  }
+
+  .confu{
+    height:300px;
+    width: 250px;
+    position: relative;
+    top:40px;
+    left:50px;
+   }
+   .confuquote{
+     height:50px;
+     width:350px;
+     position:relative;
+     top:20px;
+     left: -22px;
+     border-radius: 5px;
+    }
+   
+   .buddha{
+    height:300px;
+    width: 250px;
+     position: relative;
+     top:40px;
+     left: 50px;
+   }
+   .buddhaquote{
+     height:50px;
+     width:350px;
+     position:relative;
+     top:20px;
+     left:2px;
+     border-radius: 5px;
+   }
+    .zhuang{
+    height:300px;
+    width: 250px;
+     position: relative;
+     top:40px;
+     left:50px;
+   }
+   .zhuangquo{
+     height:100px;
+     width:380px;
+     position:relative;
+     top:30px;
+     left: -20px;
+     border-radius: 5px;
+   } 
+   
+   .lao{
+    height:300px;
+    width: 250px;
+    position: relative;
+     top:40px;
+     left:50px;
+   }
+   .laoquote{
+     height:40px;
+     width:350px;
+     position:relative;
+     top:32px;
+     left:-15px;
+     border-radius: 5px;    
+   }
+   
+   
+   .bodhi{
+    height:300px;
+    width: 280px;
+     position: relative;
+     top:40px;
+     left:30px;
+   }
+   .bodhiquo{
+     height:50px;
+     width:300px;
+     position:relative;
+     top:32px;
+     left: 13px;
+     border-radius: 5px;    
+   }
+      
+   .osho{
+     height:300px;
+     width: 300px;
+     position: relative;
+     top:40px;
+     left:30px;
+   }
+   .oshoquo{
+     height:60px;
+     width:250px;
+     position:relative;
+     top:32px;
+     left:30px;
+     border-radius: 5px;    
+   }
+   
+   .confu,.bodhi,.buddha,.lao,.zhuang,.osho{
+     margin-bottom: 40px;
+   }
+
+}
