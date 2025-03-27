@@ -681,6 +681,15 @@ footer {
      border-radius: 5px;    
    }
    
+
+   img {
+    position: absolute;
+    top: -140px;
+    left: 14px;
+    height: 120px;
+    width: 120px; /* Corrected the typo here */
+  }
+
    .confu,.bodhi,.buddha,.lao,.zhuang,.osho{
      margin-bottom: 40px;
    }
