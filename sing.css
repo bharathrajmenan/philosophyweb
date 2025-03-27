@@ -449,19 +449,109 @@ footer {
     width: 350px;
     position: relative;
     top: 50px;
-    left: 30px;
+    left: 10px;
     border-radius: 10px;
     margin-bottom:40px ;
   }
 
-  
-  .confuquote,.buddhaquote,.confuquote,.laoquote,.oshoquo,.zhuangquo,.bodhiquo{
-    height: 60px;
-    width: 430px;
+  .confu{
+    height:300px;
+    width: 250px;
     position: relative;
-    top: 20px;
-    left: -3px;
-    border-radius: 5px;
-  }
-  
+    top:40px;
+    left: 100px;
+   }
+   .confuquote{
+     height:50px;
+       width:410px;
+       position:relative;
+     top:20px;
+     left: 2px;
+     border-radius: 5px;
+    }
+   
+   .buddha{
+    height:300px;
+    width: 250px;
+     position: relative;
+     top:40px;
+     left: 100px;
+   }
+   .buddhaquote{
+     height:60px;
+     width:400px;
+     position:relative;
+     top:20px;
+     left:2px;
+     border-radius: 5px;
+   }
+    .zhuang{
+    height:300px;
+    width: 250px;
+     position: relative;
+     top:40px;
+     left: 100px;
+   }
+   .zhuangquo{
+     height:110px;
+     width:410px;
+     position:relative;
+     top:30px;
+     left: 7px;
+     border-radius: 5px;
+   } 
+   
+   .lao{
+    height:300px;
+    width: 250px;
+    position: relative;
+     top:40px;
+     left: 100px;
+   }
+   .laoquote{
+     height:50px;
+     width:400px;
+     position:relative;
+     top:32px;
+     left: 10px;
+     border-radius: 5px;    
+   }
+   
+   
+   .bodhi{
+    height:300px;
+    width: 280px;
+     position: relative;
+     top:40px;
+     left: 100px;
+   }
+   .bodhiquo{
+     height:50px;
+     width:300px;
+     position:relative;
+     top:32px;
+     left: 60px;
+     border-radius: 5px;    
+   }
+      
+   .osho{
+     height:300px;
+     width: 300px;
+     position: relative;
+     top:40px;
+     left: 100px;
+   }
+   .oshoquo{
+     height:60px;
+     width:250px;
+     position:relative;
+     top:32px;
+     left:80px;
+     border-radius: 5px;    
+   }
+   
+   .confu,.bodhi,.buddha,.lao,.zhuang,.osho{
+     margin-bottom: 40px;
+   }
+
 }
