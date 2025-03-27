@@ -105,105 +105,105 @@ img {
 
 /*------------NEWS------------*/
 
-.confu {
-  position: relative;
-  top: 40px;
-  left: 100px;
-}
-
-.confuquote {
-  height: 90px;
-  width: 600px;
-  position: relative;
-  top: 20px;
-  left: 200px;
-  border-radius: 5px;
-}
-
-.buddha {
-  position: relative;
-  top: 40px;
-  left: 100px;
-}
-
-.buddhaquote {
-  height: 90px;
-  width: 600px;
-  position: relative;
-  top: 20px;
-  left: 200px;
-  border-radius: 5px;
-}
-
-.zhuang {
-  position: relative;
-  top: 40px;
-  left: 100px;
-}
-
-.zhuangquo {
-  height: 180px;
-  width: 670px;
-  position: relative;
-  top: 32px;
-  left: 160px;
-  border-radius: 5px;
-}
-
-.lao {
-  position: relative;
-  top: 40px;
-  left: 100px;
-}
-
-.laoquote {
-  height: 70px;
-  width: 620px;
-  position: relative;
-  top: 32px;
-  left: 160px;
-  border-radius: 5px;
-}
-
-.bodhi {
-  position: relative;
-  top: 40px;
-  left: 100px;
-}
-
-.bodhiquo {
-  height: 80px;
-  width: 490px;
-  position: relative;
-  top: 32px;
-  left: 160px;
-  border-radius: 5px;
-}
-
-.osho {
-  position: relative;
-  top: 40px;
-  left: 100px;
-}
-
-.oshoquo {
-  height: 100px;
-  width: 390px;
-  position: relative;
-  top: 32px;
-  left: 160px;
-  border-radius: 5px;
-}
-
-.confu,
-.bodhi,
-.buddha,
-.lao,
-.zhuang,
-.osho {
-  margin-bottom: 40px;
-}
-
+   .confu{
+    height:300px;
+    width: 250px;
+    position: relative;
+    top:40px;
+    left: 100px;
+   }
+   .confuquote{
+     height:90px;
+       width:550px;
+       position:relative;
+     top:20px;
+     left: 200px;
+     border-radius: 5px;
+    }
+   
+   .buddha{
+    height:300px;
+    width: 250px;
+     position: relative;
+     top:40px;
+     left: 100px;
+   }
+   .buddhaquote{
+     height:90px;
+     width:600px;
+     position:relative;
+     top:20px;
+     left: 180px;
+     border-radius: 5px;
+   }
+    .zhuang{
+    height:300px;
+    width: 250px;
+     position: relative;
+     top:40px;
+     left: 100px;
+   }
+   .zhuangquo{
+     height:180px;
+     width:670px;
+     position:relative;
+     top:30px;
+     left: 120px;
+     border-radius: 5px;
+   } 
+   
+   .lao{
+    height:300px;
+    width: 250px;
+    position: relative;
+     top:40px;
+     left: 100px;
+   }
+   .laoquote{
+     height:70px;
+     width:620px;
+     position:relative;
+     top:32px;
+     left: 160px;
+     border-radius: 5px;    
+   }
+   
+   
+   .bodhi{
+    height:300px;
+    width: 280px;
+     position: relative;
+     top:40px;
+     left: 100px;
+   }
+   .bodhiquo{
+     height:80px;
+     width:490px;
+     position:relative;
+     top:32px;
+     left: 160px;
+     border-radius: 5px;    
+   }
+      
+   .osho{
+     height:300px;
+     width: 300px;
+     position: relative;
+     top:40px;
+     left: 100px;
+   }
+   .oshoquo{
+     height:100px;
+     width:390px;
+     position:relative;
+     top:32px;
+     left: 160px;
+     border-radius: 5px;    
+   }
+   
+   .confu,.bodhi,.buddha,.lao,.zhuang,.osho{
+     margin-bottom: 40px;
+   }
 /*-----------about-----------*/
 
 /* Main Content */
