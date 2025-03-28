@@ -1,6 +1,10 @@
 body {
   background: #3A3A42;
   box-sizing: content-box;
+  background-image: url(./Nude\ [1910].jpeg);
+h2{
+  color: rgb(206, 164, 29);
+}
 }
 
 h1 {
@@ -10,7 +14,7 @@ h1 {
 .menu {
   position: fixed;
   height: 100vh;
-  background: #f9a201;
+  background: #c58c23;
   width: 8vw;
   box-shadow: 1px 0 2px rgba(0, 0, 0, 0.2);
   transition: 1s;
@@ -29,12 +33,12 @@ h1 {
 }
 
 .container {
-  width: 90%;
+  width: 100%;
   margin-left: 10vw;
-  background: #ebdba8;
+  background: #1616167c;
   transition: 1s;
   transform-origin: left center;
-  color: #000000;
+  color: #ffffff;
   padding: 100px 20%;
 }
 
@@ -73,10 +77,6 @@ nav a:hover {
 
 p {
   line-height: 1.5em;
-}
-
-h2 {
-  color: #bbb;
 }
 
 .socrates {
